@@ -52,6 +52,11 @@
                             <parallel>methods</parallel>
                             <perCoreThreadCount>false</perCoreThreadCount>
                             <threadCountMethods>2</threadCountMethods>
+
+                            <includes>
+                                <include>**/RegressionRunner.java</include>
+                            </includes>
+                            <testFailureIgnore>false</testFailureIgnore>
                         </configuration>
                     </plugin>
                 </plugins>
