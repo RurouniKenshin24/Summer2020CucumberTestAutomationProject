@@ -6,8 +6,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        glue = "com/vytrack/step_definitions",
-        features = "@target/rerun.txt"
+        features = "@target/rerun.txt",
+        glue = "com/vytrack/step_definitions"
 )
 public class FailedRunner {
 }
